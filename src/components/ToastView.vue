@@ -35,10 +35,10 @@ export const useToastEffect = ()=>{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    padding:2px;
+    padding:.02rem;
     background-color: rgba(0,0,0,.35);
     border-radius:.03rem;
     color:$bgColor;
-    font-size: 15px;
+    font-size: .15rem;
 }
 </style>

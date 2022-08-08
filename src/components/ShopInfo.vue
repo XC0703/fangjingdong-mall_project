@@ -38,7 +38,7 @@ export default {
         padding-bottom: .12rem;
         // 首页商品部分有边框，详情页商品部分无边框
         &--bordered{
-            border-bottom: 1px solid $content-bgcolor;
+            border-bottom: .01rem solid $content-bgcolor;
         }
         &__title {
           line-height: .22rem;
