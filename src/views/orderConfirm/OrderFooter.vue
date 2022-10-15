@@ -123,7 +123,6 @@ export default ({
         // 转成数字
         const shopId = parseInt(route.params.id,10)
         const { calculations,shopName,productList } = useCommonCartEffect(shopId)
-
         // 蒙层弹出确认窗口
         const { showConfirm, handleShowConfirmChange } = useShowMaskEffect(); 
         const { showHavaPayed, handleHavaPayed } = useShowHavePayedEffect();

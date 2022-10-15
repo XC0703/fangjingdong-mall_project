@@ -68,14 +68,10 @@ const useFormEffect = (addressId) => {
   }
   const upsertAddress = async () => {
     if(addressId) {
-      const result = await patch(`/api/user/address/${addressId}`, {
-        data: formData
-      })
+      const result = await patch(`/api/user/address/${addressId}`, formData)
       if (result?.errno === 0) { router.back() } 
     }else {
-      const result = await post('/api/user/address', {
-        data: formData
-      })
+      const result = await post('/api/user/address', formData)
       if (result?.errno === 0) { router.back() } 
     }
   }
