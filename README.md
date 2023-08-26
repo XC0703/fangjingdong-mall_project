@@ -1,6 +1,5 @@
 # fangjingdong-mall_project
 
-<<<<<<< HEAD
 #### 介绍
 Vue.js仿京东到家电商全栈项目——前端部分，巩固前端知识，增强实操能力。
 
